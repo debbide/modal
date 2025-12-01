@@ -14,9 +14,8 @@
 - **UUID** = 82ab6c19-b0c4-4d2a-93d1-af0687edfe76    // 不填则使用内置默认uuid
 - **ARGO_DOMAIN** = argo 域名                        // 必须，model必须使用固定隧道，临时隧道不通
 - **ARGO_AUTH** = eyxxxxxxxxxxxxxxxxxxxxxxxxxxx     // 必须，model必须使用固定隧道，临时隧道不通
-- **NEZHA_SERVER** = 哪吒 agent 域名，v1为 域名:端口  // 可选
-- **NEZHA_KEY** = 哪吒 agent 的 key                  // 可选
-- **NEZHA_PORT** = 哪吒 agent 的 端口，仅v0需要       // 可选
+- **KOMARI_HOST** = Komari 面板地址 (不带http)        // 可选，例如: status.example.com
+- **KOMARI_TOKEN** = Komari Agent Token              // 可选
 - **CFIP** = cf.090227.xyz                          // 优选域名或IP，可选，不填则使用默认
 - **CFPORT** = 443                                  // 优选域名或优选IP的端口，可选，不填则使用默认
 - **NAME** = Modal                                  // 节点名称前缀，可选，不填则使用默认
