@@ -74,8 +74,8 @@ async def lifespan(app_instance: FastAPI):
     NAME = os.environ.get('NAME') or 'Modal'
     CFIP = os.environ.get('CFIP') or 'www.visa.com.tw'
     CFPORT = int(os.environ.get('CFPORT') or '443')
-    KOMARI_HOST = os.environ.get('KOMARI_HOST') or 'https://km.bcbc.pp.ua'
-    KOMARI_TOKEN = os.environ.get('KOMARI_TOKEN') or '1Fhcrdxaeyj8ToBZr6UA6n'
+    KOMARI_HOST = os.environ.get('KOMARI_HOST') or ''
+    KOMARI_TOKEN = os.environ.get('KOMARI_TOKEN') or ''
     UPLOAD_URL = os.environ.get('UPLOAD_URL') or ''
     SUB_PATH = os.environ.get('SUB_PATH') or 'sub'
     BOT_TOKEN = os.environ.get('BOT_TOKEN') or ''
