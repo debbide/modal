@@ -14,7 +14,7 @@
 - **UUID** = 82ab6c19-b0c4-4d2a-93d1-af0687edfe76    // 不填则使用内置默认uuid
 - **ARGO_DOMAIN** = argo 域名                        // 必须，model必须使用固定隧道，临时隧道不通
 - **ARGO_AUTH** = eyxxxxxxxxxxxxxxxxxxxxxxxxxxx     // 必须，model必须使用固定隧道，临时隧道不通
-- **KOMARI_HOST** = Komari 面板地址 (不带http)        // 可选，例如: status.example.com
+- **KOMARI_HOST** = Komari 面板地址 (带https)           // 可选，例如: https://status.example.com
 - **KOMARI_TOKEN** = Komari Agent Token              // 可选
 - **CFIP** = cf.090227.xyz                          // 优选域名或IP，可选，不填则使用默认
 - **CFPORT** = 443                                  // 优选域名或优选IP的端口，可选，不填则使用默认
