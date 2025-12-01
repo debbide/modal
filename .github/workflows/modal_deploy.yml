@@ -5,7 +5,7 @@ on:
   #schedule:
   #  - cron: '0 18 * * *'
   repository_dispatch:
-    types: [service-down-alert]
+    types: [service-down-alert, deploy, redeploy, webhook]
 
 jobs:
   deploy:
